@@ -1,3 +1,51 @@
+# _{Currency Exchanger}_
+
+#### By _**{Brandon Fenk}**_
+
+#### _{Currency Exchanger}_
+
+## Technologies Used
+
+* _HTML_
+* _JS_
+
+
+## Description
+
+_I made a currency exchanger for United Arab Emirates, Afghan Afghani, Danish Krone, Armenian Dram, and the theNetherlands Antillean Guilder.
+
+## Setup/Installation Requirements
+
+_Installing all packages with $ npm install.
+Building the project using webpack with $ npm run build
+Starting a development server with $ npm run start
+Linting JS files in the src folder with $ npm run lint
+Running tests with Jest using $ npm run test_
+
+The API KEY can be found at www.exchangerate-api.com. Its a completely free API.
+
+
+## Known Bugs
+
+* _Currently have issues with the API and displaying information_
+
+
+## License
+
+_I Encourage you to contact me or make a contribution to the code._
+
+Copyright (c) MIT _11/18/2022_ _Brandon James Fenk_
+
+
+
+
+
+
+
+
+
+
+
 
 Run: npm install webpack@4.46.0 --save-dev --save-exact
 
@@ -27,6 +75,7 @@ npm install file-loader --save-dev(install for webpack for images)
 
 npm install html-loader@1.3.2 --save-dev((install for webpack for images)
 
+npm install dotenv-webpack@2.0.0 --save-dev
 
 Installing all packages with $ npm install.
 Building the project using webpack with $ npm run build
