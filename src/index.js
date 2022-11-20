@@ -1,4 +1,4 @@
-import CurrencyService from './JS/currency-api.js';
+import CurrencyService from './js/currency-api.js';
 
 
 
