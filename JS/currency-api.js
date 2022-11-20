@@ -4,6 +4,7 @@ export default class CurrencyService {
       let request = XMLHttpRequest();
       const url = `https://v6.exchangerate-api.com/v6/${process.env.API_KEY}/pair/${currency}/${usd}`
       request.addEventListener("loadend", function() {
+        console.log(process.env.API_KEY);
          const response = JSON.parse(this.responseText);
         console.log(process.env.API_KEY);
         if (this.status === 200){

@@ -21,7 +21,7 @@ module.exports = {
     new CleanWebpackPlugin(),
     new Dotenv(),
     new HtmlWebpackPlugin({
-      title: 'UPDATE NAME HERE',
+      title: 'currency-exchanger2',
       template: './src/index.html',
       inject: 'body'
     })
@@ -47,7 +47,7 @@ module.exports = {
       {
         test: /\.html$/,
         use: [
-          
+          'html-loader'
         ]
       },
     ]

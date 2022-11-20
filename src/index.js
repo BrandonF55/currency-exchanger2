@@ -1,15 +1,17 @@
-import CurrencyService from './Js/currency-api';
+import CurrencyService from './JS/currency-api.js';
 
 
 
 // Business Logic_______________
 
 function getCurrency(currency, usd){
+  console.log(getCurrency);
   let promise = CurrencyService.getCurrency(currency, usd);
   promise.then(function(CurrencyDataArray) {
     printElements(CurrencyDataArray);
   }, function(error) {
     printError(error);
+    console.log(getCurrency);
   });
 
   }
